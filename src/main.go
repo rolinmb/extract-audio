@@ -7,8 +7,8 @@ import(
 )
 
 const (
-  VIDIN = "src/vid_in/bunnies.mp4"
-  OUTNAME = "src/audio_out/bunnies.mp3"
+  VIDIN = "src/vid_in/sunset_window.mp4"
+  OUTNAME = "src/audio_out/sunsetwndw.mp3"
 )
 
 func main() {
@@ -22,5 +22,5 @@ func main() {
   if err != nil {
     log.Fatalf("\nmain(): An error occured while running ffmpegCmd: %s\n%v", string(ffmpegOutput), err)
   }
-  fmt.Printf("\nmain(): Successfully extracted audio from %s and saved as %s with ffmpeg\n\n%s\n", VIDIN, OUTNAME, string(ffmpegOutput))
+  fmt.Printf("\nmain(): Successfully extracted audio from %s and saved as %s with ffmpeg\n\n%s", VIDIN, OUTNAME, string(ffmpegOutput))
 }
