@@ -7,8 +7,8 @@ import(
 )
 
 const (
-  VIDIN = "src/vid_in/sunset_window.mp4"
-  OUTNAME = "src/audio_out/sunsetwndw.mp3"
+  VIDIN = "src/vid_in/dumbliveremixes2_11222024.mp4"
+  OUTNAME = "src/audio_out/dumbliveremixes2_11222024.mp3"
 )
 
 func main() {
