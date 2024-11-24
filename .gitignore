@@ -1,4 +1,5 @@
 vid_in
 audio_out
 src/main
+src/main.o
 src/main.exe

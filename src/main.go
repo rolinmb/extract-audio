@@ -11,7 +11,7 @@ const (
     VIDEODIR = "vid_in"
     AUDIODIR = "audio_out"
     VIDIN = "/dumbliveremixes3_11232024.mp4"
-    OUTNAME = "/dumbliveremixes3_11232024.mp3"
+    OUTNAME = "/dumbliveremixes3_11242024.mp3"
 )
 
 func checkCreateDir(dirName string) error {
