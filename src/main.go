@@ -10,7 +10,7 @@ import(
 const (
     VIDEODIR = "vid_in"
     AUDIODIR = "audio_out"
-    VIDIN = "/2024-12-08 21-20-35.mp4"
+    VIDIN = "/dumbliveremixes6_12082024.mp4"
     OUTNAME = "/dumbliveremixes6_12082024.mp3"
 )
 
