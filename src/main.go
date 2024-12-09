@@ -10,8 +10,8 @@ import(
 const (
     VIDEODIR = "vid_in"
     AUDIODIR = "audio_out"
-    VIDIN = "/remixes2_12052024.mp4"
-    OUTNAME = "/remixes2_12052024.mp3"
+    VIDIN = "/2024-12-08 21-20-35.mp4"
+    OUTNAME = "/dumbliveremixes6_12082024.mp3"
 )
 
 func checkCreateDir(dirName string) error {
